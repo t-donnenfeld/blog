@@ -1,0 +1,87 @@
+:root {
+    /** CSS DARK THEME PRIMARY COLORS */
+
+    --color-primary-100:  #edc78e;
+    --color-primary-200:  #f0cd9a;
+    --color-primary-300:  #f2d3a7;
+    --color-primary-400:  #f5d9b3;
+    --color-primary-500:  #f7e0c0;
+    --color-primary-600:  #f9e6cc;
+
+    /** CSS DARK THEME SURFACE COLORS */
+
+    --color-surface-100:  #3a1f04;
+    --color-surface-200:  #4f341f;
+    --color-surface-300:  #644a37;
+    --color-surface-400:  #796250;
+    --color-surface-500:  #8f7a6b;
+    --color-surface-600:  #a59386;
+
+    /** CSS DARK THEME MIXED SURFACE COLORS */
+
+    --color-surface-mixed-100:  #4a2e13;
+    --color-surface-mixed-200:  #5e4229;
+    --color-surface-mixed-300:  #715741;
+    --color-surface-mixed-400:  #856d59;
+    --color-surface-mixed-500:  #998473;
+    --color-surface-mixed-600:  #ad9b8d;
+
+    color: var(--color-primary-400);
+
+}
+
+body {
+    background-color:  var(--color-surface-mixed-100);
+    font-family: Quicksand, sans-serif;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-primary-100);
+}
+
+a:hover {
+    color: var(--color-primary-500);
+}
+
+/* header */
+.header {
+    font-family: Pacifico, serif;
+    background-color:  var(--color-surface-mixed-300);
+    border-bottom: 1px solid var(--color-primary-400);
+    padding: 0.5em 1em;
+    display: flex;
+    justify-content: space-between;
+    z-index: 10;
+    position: sticky;
+    top: 0;
+    font-size: 24px;
+}
+
+
+/* Post Container  */
+
+.post-container-ext {
+    font-family: Pacifico, serif;
+    font-size: 20px;
+    padding: 2em;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.post-container-int {
+    width: 80%;
+    background-color: var(--color-surface-mixed-500);
+    border-radius: 25px;
+    min-height: 50px;
+    padding: 20px;
+}
+
+/* Posts   */
+
+.blog-post {
+    font-size: 14px;
+    font-family: Quicksand, sans-serif;
+}
